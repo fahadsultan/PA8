@@ -25,15 +25,13 @@ Use [this calendly link](https://calendly.com/ssultan-dpq/) provided on the cour
 ---
 
 <br/>
-<h1><center>Shortest Path</h1></center>
+<h1><center>Shortest Path and Graph Implementation</h1></center>
 
 <br/>
 
-In this assignment, you are to implement the `Graph` interface in the `Graph` file provided. The interface defines the methods that you need to implement. 
+In this assignment, you are to implement the `Graph` interface in the `Graph.java` file provided in `app/src/main/java/pa8` folder. The interface defines the methods that you need to implement. 
 
    Make sure to read the java doc comments in the `Graph` interface to understand the requirements of each method.
-
-Each of the two classes above should further have sublasses `GraphMatrixWeighted` and `GraphListWeighted`, which represent a weighted graph using the same representations as above.
 
 In total, you are to implement four classes:
 

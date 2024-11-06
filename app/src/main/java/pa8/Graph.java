@@ -10,8 +10,21 @@ interface Graph {
      * Add an edge between two vertices.
      * @param v vertex 1 (0-indexed)
      * @param w vertex 2 (0-indexed)
+     * 
+     * When called for weighted graphs, the default weight of the edge is assumed to be 1.
      */
     public void addEdge(int v, int w);
+
+    /**
+     *  Add a weighted edge between two vertices.
+     *  @param v vertex 1 (0-indexed)
+     *  @param w vertex 2 (0-indexed)
+     *  @param weight the weight of the edge
+     * 
+     * When called for unweighted graphs, it should be equivalent to addEdge(v, w).
+     * 
+     */
+    public void addWeightedEdge(int v, int w, int weight);
 
     /** 
      * Perform a Breadth-First Search (BFS) starting from the specified vertex.
